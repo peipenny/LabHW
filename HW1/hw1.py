@@ -33,5 +33,3 @@ max_runtime = 30 * 60  # 30 minutes
 
 best_solution, best_fitness = exhaustive_search(problem_size, max_runtime)
 
-print("sol:", best_solution)
-print("fitness:", best_fitness)
